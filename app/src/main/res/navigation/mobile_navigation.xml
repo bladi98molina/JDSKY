@@ -22,4 +22,34 @@
         android:name="com.example.jdsky.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_cliente"
+        android:name="com.example.jdsky.nav_cliente"
+        android:label="fragment_nav_cliente"
+        tools:layout="@layout/fragment_nav_cliente" />
+    <fragment
+        android:id="@+id/nav_especial"
+        android:name="com.example.jdsky.nav_especial"
+        android:label="fragment_nav_especial"
+        tools:layout="@layout/fragment_nav_especial" />
+    <fragment
+        android:id="@+id/nav_historial"
+        android:name="com.example.jdsky.nav_historial"
+        android:label="fragment_nav_historial"
+        tools:layout="@layout/fragment_nav_historial" />
+    <fragment
+        android:id="@+id/nav_calendario"
+        android:name="com.example.jdsky.nav_calendario"
+        android:label="fragment_nav_calendario"
+        tools:layout="@layout/fragment_nav_calendario" />
+    <fragment
+        android:id="@+id/nav_concultas"
+        android:name="com.example.jdsky.nav_concultas"
+        android:label="fragment_nav_concultas"
+        tools:layout="@layout/fragment_nav_concultas" />
+    <fragment
+        android:id="@+id/nav_doc"
+        android:name="com.example.jdsky.nav_doc"
+        android:label="fragment_nav_doc"
+        tools:layout="@layout/fragment_nav_doc" />
 </navigation>
